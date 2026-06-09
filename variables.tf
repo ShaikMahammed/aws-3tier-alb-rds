@@ -21,7 +21,7 @@ variable "asg_name" {}
 variable "web_ins" {}
 variable "app_sg" {}
 variable "app_ins" {}
-variable "db_subnet_group" { }
+variable "db_subnet_group" {}
 variable "rds_rg" {}
 variable "rds_identifier" {}
 variable "db_username" {
