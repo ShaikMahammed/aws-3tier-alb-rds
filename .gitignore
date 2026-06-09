@@ -1,0 +1,22 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+
+# Terraform State
+terraform.tfstate
+terraform.tfstate.*
+*.tfstate
+
+# Variable files containing secrets
+*.auto.tfvars
+terraform.tfvars
+
+# PEM Keys
+*.pem
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log

@@ -1,0 +1,33 @@
+variable "vpc_name" {}
+variable "vpc_cidr" {}
+variable "pb01_name" {}
+variable "pb02_name" {}
+variable "pb01_cidr" {}
+variable "pb02_cidr" {}
+variable "pv01_name" {}
+variable "pv02_name" {}
+variable "pv01_cidr" {}
+variable "pv02_cidr" {}
+variable "igw" {}
+variable "nat_gw" {}
+variable "pb_rt" {}
+variable "pv_rt" {}
+variable "web_sg" {}
+variable "alb_sg" {}
+variable "alb_name" {}
+variable "alb_tg" {}
+variable "alb_listener" {}
+variable "asg_name" {}
+variable "web_ins" {}
+variable "app_sg" {}
+variable "app_ins" {}
+variable "db_subnet_group" { }
+variable "rds_rg" {}
+variable "rds_identifier" {}
+variable "db_username" {
+  sensitive = true
+}
+variable "db_password" {
+  sensitive = true
+}
+variable "db_name" {}
