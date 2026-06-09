@@ -24,10 +24,12 @@ variable "app_ins" {}
 variable "db_subnet_group" {}
 variable "rds_rg" {}
 variable "rds_identifier" {}
+variable "db_name" {}
+
 variable "db_username" {
   sensitive = true
 }
+
 variable "db_password" {
   sensitive = true
 }
-variable "db_name" {}
