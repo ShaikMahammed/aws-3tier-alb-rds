@@ -17,7 +17,6 @@ variable "alb_sg" {}
 variable "alb_name" {}
 variable "alb_tg" {}
 variable "alb_listener" {}
-variable "asg_name" {}
 variable "web_ins" {}
 variable "app_sg" {}
 variable "app_ins" {}
