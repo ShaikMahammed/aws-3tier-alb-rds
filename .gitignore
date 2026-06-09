@@ -2,14 +2,13 @@
 .terraform/
 .terraform.lock.hcl
 
-# Terraform State
+# State files
 terraform.tfstate
 terraform.tfstate.*
 *.tfstate
 
-# Variable files containing secrets
+# Auto tfvars containing secrets
 *.auto.tfvars
-terraform.tfvars
 
 # PEM Keys
 *.pem
